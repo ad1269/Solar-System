@@ -13,6 +13,17 @@
 		6B1D7E111B58888D003A92CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E101B58888D003A92CA /* Images.xcassets */; };
 		6B1D7E141B58888D003A92CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E121B58888D003A92CA /* LaunchScreen.xib */; };
 		6B1D7E201B58888E003A92CA /* Solar_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E1F1B58888E003A92CA /* Solar_SystemTests.swift */; };
+		6B1D7E2A1B5888E2003A92CA /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E291B5888E2003A92CA /* Planet.swift */; };
+		6B1D7E2C1B5888EB003A92CA /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2B1B5888EB003A92CA /* Vector.swift */; };
+		6B1D7E301B58C8D3003A92CA /* earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2D1B58C8D3003A92CA /* earth.gif */; };
+		6B1D7E311B58C8D3003A92CA /* jupiter.ico in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2E1B58C8D3003A92CA /* jupiter.ico */; };
+		6B1D7E321B58C8D3003A92CA /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2F1B58C8D3003A92CA /* Sun.png */; };
+		6BE6F2FD1B5DF14D006FE30C /* mars.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2F81B5DF14D006FE30C /* mars.gif */; };
+		6BE6F2FE1B5DF14D006FE30C /* mercury.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2F91B5DF14D006FE30C /* mercury.gif */; };
+		6BE6F2FF1B5DF14D006FE30C /* neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2FA1B5DF14D006FE30C /* neptune.png */; };
+		6BE6F3001B5DF14D006FE30C /* saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2FB1B5DF14D006FE30C /* saturn.png */; };
+		6BE6F3011B5DF14D006FE30C /* uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2FC1B5DF14D006FE30C /* uranus.png */; };
+		6BE6F3031B5DF19A006FE30C /* venus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F3021B5DF19A006FE30C /* venus.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		6B1D7E191B58888E003A92CA /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1D7E1E1B58888E003A92CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B1D7E1F1B58888E003A92CA /* Solar_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemTests.swift; sourceTree = "<group>"; };
+		6B1D7E291B5888E2003A92CA /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		6B1D7E2B1B5888EB003A92CA /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		6B1D7E2D1B58C8D3003A92CA /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earth.gif; sourceTree = SOURCE_ROOT; };
+		6B1D7E2E1B58C8D3003A92CA /* jupiter.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = jupiter.ico; sourceTree = SOURCE_ROOT; };
+		6B1D7E2F1B58C8D3003A92CA /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = SOURCE_ROOT; };
+		6BE6F2F81B5DF14D006FE30C /* mars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mars.gif; sourceTree = SOURCE_ROOT; };
+		6BE6F2F91B5DF14D006FE30C /* mercury.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mercury.gif; sourceTree = SOURCE_ROOT; };
+		6BE6F2FA1B5DF14D006FE30C /* neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neptune.png; sourceTree = SOURCE_ROOT; };
+		6BE6F2FB1B5DF14D006FE30C /* saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturn.png; sourceTree = SOURCE_ROOT; };
+		6BE6F2FC1B5DF14D006FE30C /* uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uranus.png; sourceTree = SOURCE_ROOT; };
+		6BE6F3021B5DF19A006FE30C /* venus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = venus.gif; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,8 @@
 			children = (
 				6B1D7E091B58888D003A92CA /* AppDelegate.swift */,
 				6B1D7E0B1B58888D003A92CA /* ViewController.swift */,
+				6B1D7E291B5888E2003A92CA /* Planet.swift */,
+				6B1D7E2B1B5888EB003A92CA /* Vector.swift */,
 				6B1D7E0D1B58888D003A92CA /* Main.storyboard */,
 				6B1D7E101B58888D003A92CA /* Images.xcassets */,
 				6B1D7E121B58888D003A92CA /* LaunchScreen.xib */,
@@ -90,6 +114,15 @@
 		6B1D7E071B58888D003A92CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BE6F2F81B5DF14D006FE30C /* mars.gif */,
+				6BE6F2F91B5DF14D006FE30C /* mercury.gif */,
+				6BE6F2FA1B5DF14D006FE30C /* neptune.png */,
+				6BE6F2FB1B5DF14D006FE30C /* saturn.png */,
+				6BE6F3021B5DF19A006FE30C /* venus.gif */,
+				6BE6F2FC1B5DF14D006FE30C /* uranus.png */,
+				6B1D7E2D1B58C8D3003A92CA /* earth.gif */,
+				6B1D7E2E1B58C8D3003A92CA /* jupiter.ico */,
+				6B1D7E2F1B58C8D3003A92CA /* Sun.png */,
 				6B1D7E081B58888D003A92CA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,7 +189,9 @@
 		6B1D7DFC1B58888D003A92CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = AD;
 				TargetAttributes = {
 					6B1D7E031B58888D003A92CA = {
@@ -192,8 +227,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1D7E321B58C8D3003A92CA /* Sun.png in Resources */,
+				6BE6F3011B5DF14D006FE30C /* uranus.png in Resources */,
+				6B1D7E311B58C8D3003A92CA /* jupiter.ico in Resources */,
 				6B1D7E0F1B58888D003A92CA /* Main.storyboard in Resources */,
+				6BE6F2FD1B5DF14D006FE30C /* mars.gif in Resources */,
+				6BE6F3001B5DF14D006FE30C /* saturn.png in Resources */,
+				6BE6F2FF1B5DF14D006FE30C /* neptune.png in Resources */,
+				6B1D7E301B58C8D3003A92CA /* earth.gif in Resources */,
 				6B1D7E141B58888D003A92CA /* LaunchScreen.xib in Resources */,
+				6BE6F2FE1B5DF14D006FE30C /* mercury.gif in Resources */,
+				6BE6F3031B5DF19A006FE30C /* venus.gif in Resources */,
 				6B1D7E111B58888D003A92CA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1D7E2A1B5888E2003A92CA /* Planet.swift in Sources */,
 				6B1D7E0C1B58888D003A92CA /* ViewController.swift in Sources */,
+				6B1D7E2C1B5888EB003A92CA /* Vector.swift in Sources */,
 				6B1D7E0A1B58888D003A92CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +321,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -340,6 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Solar System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,6 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Solar System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -368,6 +417,7 @@
 				);
 				INFOPLIST_FILE = "Solar SystemTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
 			};
@@ -383,6 +433,7 @@
 				);
 				INFOPLIST_FILE = "Solar SystemTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
 			};
@@ -407,6 +458,7 @@
 				6B1D7E251B58888E003A92CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B1D7E261B58888E003A92CA /* Build configuration list for PBXNativeTarget "Solar SystemTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +467,7 @@
 				6B1D7E281B58888E003A92CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

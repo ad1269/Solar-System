@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Solar_System" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,63 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sun.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tkc-HB-nRU">
+                                <rect key="frame" x="290" y="347" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="earth.gif" translatesAutoresizingMaskIntoConstraints="NO" id="5RU-w3-2RD">
+                                <rect key="frame" x="290" y="242" width="6" height="6"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mars.gif" translatesAutoresizingMaskIntoConstraints="NO" id="vv5-KS-hoN">
+                                <rect key="frame" x="290" y="189" width="5" height="5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mercury.gif" translatesAutoresizingMaskIntoConstraints="NO" id="FO4-7F-Pwx">
+                                <rect key="frame" x="290" y="322" width="4" height="4"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="venus.gif" translatesAutoresizingMaskIntoConstraints="NO" id="t6e-5Q-qDX">
+                                <rect key="frame" x="290" y="297" width="5" height="5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jupiter.ico" translatesAutoresizingMaskIntoConstraints="NO" id="hJg-ic-o8W">
+                                <rect key="frame" x="290" y="107" width="10" height="10"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="saturn.png" translatesAutoresizingMaskIntoConstraints="NO" id="4g3-7b-Nof">
+                                <rect key="frame" x="290" y="80" width="9" height="9"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="neptune.png" translatesAutoresizingMaskIntoConstraints="NO" id="OkH-5Y-kIh">
+                                <rect key="frame" x="290" y="56" width="8" height="8"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uranus.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tby-vb-pl3">
+                                <rect key="frame" x="290" y="28" width="8" height="8"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="earth" destination="5RU-w3-2RD" id="uox-gr-16Z"/>
+                        <outlet property="jupiter" destination="hJg-ic-o8W" id="o88-Yv-9Jf"/>
+                        <outlet property="mars" destination="vv5-KS-hoN" id="uMj-1o-91b"/>
+                        <outlet property="mercury" destination="FO4-7F-Pwx" id="X3S-Nf-4g2"/>
+                        <outlet property="neptune" destination="OkH-5Y-kIh" id="9Tc-yX-Qr5"/>
+                        <outlet property="saturn" destination="4g3-7b-Nof" id="07Z-L0-3kV"/>
+                        <outlet property="sun" destination="Tkc-HB-nRU" id="4Yu-ld-ZMx"/>
+                        <outlet property="uranus" destination="Tby-vb-pl3" id="wEX-Hs-BUT"/>
+                        <outlet property="venus" destination="t6e-5Q-qDX" id="uKo-tR-v1f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="62" y="222"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Sun.png" width="256" height="256"/>
+        <image name="earth.gif" width="128" height="128"/>
+        <image name="jupiter.ico" width="256" height="256"/>
+        <image name="mars.gif" width="256" height="256"/>
+        <image name="mercury.gif" width="256" height="256"/>
+        <image name="neptune.png" width="256" height="256"/>
+        <image name="saturn.png" width="256" height="256"/>
+        <image name="uranus.png" width="256" height="256"/>
+        <image name="venus.gif" width="256" height="256"/>
+    </resources>
 </document>
