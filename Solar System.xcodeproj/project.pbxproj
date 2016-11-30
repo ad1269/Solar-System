@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B06D7221DEF5188005E4E11 /* earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D7191DEF5188005E4E11 /* earth.gif */; settings = {ASSET_TAGS = (); }; };
+		6B06D7231DEF5188005E4E11 /* jupiter.ico in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D71A1DEF5188005E4E11 /* jupiter.ico */; settings = {ASSET_TAGS = (); }; };
+		6B06D7241DEF5188005E4E11 /* mars.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D71B1DEF5188005E4E11 /* mars.gif */; settings = {ASSET_TAGS = (); }; };
+		6B06D7251DEF5188005E4E11 /* mercury.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D71C1DEF5188005E4E11 /* mercury.gif */; settings = {ASSET_TAGS = (); }; };
+		6B06D7261DEF5188005E4E11 /* neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D71D1DEF5188005E4E11 /* neptune.png */; settings = {ASSET_TAGS = (); }; };
+		6B06D7271DEF5188005E4E11 /* saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D71E1DEF5188005E4E11 /* saturn.png */; settings = {ASSET_TAGS = (); }; };
+		6B06D7281DEF5188005E4E11 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D71F1DEF5188005E4E11 /* Sun.png */; settings = {ASSET_TAGS = (); }; };
+		6B06D7291DEF5188005E4E11 /* uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D7201DEF5188005E4E11 /* uranus.png */; settings = {ASSET_TAGS = (); }; };
+		6B06D72A1DEF5188005E4E11 /* venus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B06D7211DEF5188005E4E11 /* venus.gif */; settings = {ASSET_TAGS = (); }; };
 		6B1D7E0A1B58888D003A92CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E091B58888D003A92CA /* AppDelegate.swift */; };
 		6B1D7E0C1B58888D003A92CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E0B1B58888D003A92CA /* ViewController.swift */; };
 		6B1D7E0F1B58888D003A92CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E0D1B58888D003A92CA /* Main.storyboard */; };
@@ -15,15 +24,6 @@
 		6B1D7E201B58888E003A92CA /* Solar_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E1F1B58888E003A92CA /* Solar_SystemTests.swift */; };
 		6B1D7E2A1B5888E2003A92CA /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E291B5888E2003A92CA /* Planet.swift */; };
 		6B1D7E2C1B5888EB003A92CA /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2B1B5888EB003A92CA /* Vector.swift */; };
-		6B1D7E301B58C8D3003A92CA /* earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2D1B58C8D3003A92CA /* earth.gif */; };
-		6B1D7E311B58C8D3003A92CA /* jupiter.ico in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2E1B58C8D3003A92CA /* jupiter.ico */; };
-		6B1D7E321B58C8D3003A92CA /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D7E2F1B58C8D3003A92CA /* Sun.png */; };
-		6BE6F2FD1B5DF14D006FE30C /* mars.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2F81B5DF14D006FE30C /* mars.gif */; };
-		6BE6F2FE1B5DF14D006FE30C /* mercury.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2F91B5DF14D006FE30C /* mercury.gif */; };
-		6BE6F2FF1B5DF14D006FE30C /* neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2FA1B5DF14D006FE30C /* neptune.png */; };
-		6BE6F3001B5DF14D006FE30C /* saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2FB1B5DF14D006FE30C /* saturn.png */; };
-		6BE6F3011B5DF14D006FE30C /* uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F2FC1B5DF14D006FE30C /* uranus.png */; };
-		6BE6F3031B5DF19A006FE30C /* venus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6F3021B5DF19A006FE30C /* venus.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B06D7191DEF5188005E4E11 /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = earth.gif; path = Images/earth.gif; sourceTree = SOURCE_ROOT; };
+		6B06D71A1DEF5188005E4E11 /* jupiter.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = jupiter.ico; path = Images/jupiter.ico; sourceTree = SOURCE_ROOT; };
+		6B06D71B1DEF5188005E4E11 /* mars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = mars.gif; path = Images/mars.gif; sourceTree = SOURCE_ROOT; };
+		6B06D71C1DEF5188005E4E11 /* mercury.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = mercury.gif; path = Images/mercury.gif; sourceTree = SOURCE_ROOT; };
+		6B06D71D1DEF5188005E4E11 /* neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neptune.png; path = Images/neptune.png; sourceTree = SOURCE_ROOT; };
+		6B06D71E1DEF5188005E4E11 /* saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saturn.png; path = Images/saturn.png; sourceTree = SOURCE_ROOT; };
+		6B06D71F1DEF5188005E4E11 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = Images/Sun.png; sourceTree = SOURCE_ROOT; };
+		6B06D7201DEF5188005E4E11 /* uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uranus.png; path = Images/uranus.png; sourceTree = SOURCE_ROOT; };
+		6B06D7211DEF5188005E4E11 /* venus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = venus.gif; path = Images/venus.gif; sourceTree = SOURCE_ROOT; };
 		6B1D7E041B58888D003A92CA /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1D7E081B58888D003A92CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B1D7E091B58888D003A92CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,15 +58,6 @@
 		6B1D7E1F1B58888E003A92CA /* Solar_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemTests.swift; sourceTree = "<group>"; };
 		6B1D7E291B5888E2003A92CA /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		6B1D7E2B1B5888EB003A92CA /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
-		6B1D7E2D1B58C8D3003A92CA /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earth.gif; sourceTree = SOURCE_ROOT; };
-		6B1D7E2E1B58C8D3003A92CA /* jupiter.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = jupiter.ico; sourceTree = SOURCE_ROOT; };
-		6B1D7E2F1B58C8D3003A92CA /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = SOURCE_ROOT; };
-		6BE6F2F81B5DF14D006FE30C /* mars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mars.gif; sourceTree = SOURCE_ROOT; };
-		6BE6F2F91B5DF14D006FE30C /* mercury.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mercury.gif; sourceTree = SOURCE_ROOT; };
-		6BE6F2FA1B5DF14D006FE30C /* neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neptune.png; sourceTree = SOURCE_ROOT; };
-		6BE6F2FB1B5DF14D006FE30C /* saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturn.png; sourceTree = SOURCE_ROOT; };
-		6BE6F2FC1B5DF14D006FE30C /* uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uranus.png; sourceTree = SOURCE_ROOT; };
-		6BE6F3021B5DF19A006FE30C /* venus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = venus.gif; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,15 +114,15 @@
 		6B1D7E071B58888D003A92CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6BE6F2F81B5DF14D006FE30C /* mars.gif */,
-				6BE6F2F91B5DF14D006FE30C /* mercury.gif */,
-				6BE6F2FA1B5DF14D006FE30C /* neptune.png */,
-				6BE6F2FB1B5DF14D006FE30C /* saturn.png */,
-				6BE6F3021B5DF19A006FE30C /* venus.gif */,
-				6BE6F2FC1B5DF14D006FE30C /* uranus.png */,
-				6B1D7E2D1B58C8D3003A92CA /* earth.gif */,
-				6B1D7E2E1B58C8D3003A92CA /* jupiter.ico */,
-				6B1D7E2F1B58C8D3003A92CA /* Sun.png */,
+				6B06D7191DEF5188005E4E11 /* earth.gif */,
+				6B06D71A1DEF5188005E4E11 /* jupiter.ico */,
+				6B06D71B1DEF5188005E4E11 /* mars.gif */,
+				6B06D71C1DEF5188005E4E11 /* mercury.gif */,
+				6B06D71D1DEF5188005E4E11 /* neptune.png */,
+				6B06D71E1DEF5188005E4E11 /* saturn.png */,
+				6B06D71F1DEF5188005E4E11 /* Sun.png */,
+				6B06D7201DEF5188005E4E11 /* uranus.png */,
+				6B06D7211DEF5188005E4E11 /* venus.gif */,
 				6B1D7E081B58888D003A92CA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -227,18 +227,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1D7E321B58C8D3003A92CA /* Sun.png in Resources */,
-				6BE6F3011B5DF14D006FE30C /* uranus.png in Resources */,
-				6B1D7E311B58C8D3003A92CA /* jupiter.ico in Resources */,
 				6B1D7E0F1B58888D003A92CA /* Main.storyboard in Resources */,
-				6BE6F2FD1B5DF14D006FE30C /* mars.gif in Resources */,
-				6BE6F3001B5DF14D006FE30C /* saturn.png in Resources */,
-				6BE6F2FF1B5DF14D006FE30C /* neptune.png in Resources */,
-				6B1D7E301B58C8D3003A92CA /* earth.gif in Resources */,
+				6B06D7251DEF5188005E4E11 /* mercury.gif in Resources */,
+				6B06D7271DEF5188005E4E11 /* saturn.png in Resources */,
+				6B06D7241DEF5188005E4E11 /* mars.gif in Resources */,
+				6B06D72A1DEF5188005E4E11 /* venus.gif in Resources */,
+				6B06D7221DEF5188005E4E11 /* earth.gif in Resources */,
+				6B06D7291DEF5188005E4E11 /* uranus.png in Resources */,
+				6B06D7281DEF5188005E4E11 /* Sun.png in Resources */,
 				6B1D7E141B58888D003A92CA /* LaunchScreen.xib in Resources */,
-				6BE6F2FE1B5DF14D006FE30C /* mercury.gif in Resources */,
-				6BE6F3031B5DF19A006FE30C /* venus.gif in Resources */,
+				6B06D7261DEF5188005E4E11 /* neptune.png in Resources */,
 				6B1D7E111B58888D003A92CA /* Images.xcassets in Resources */,
+				6B06D7231DEF5188005E4E11 /* jupiter.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
